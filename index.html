@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meridian計画 - オープンソースロボット開発プロジェクト</title>
+  <meta name="description" content="Meridian計画は、ロボット開発を入り口に、知識ゼロから最先端技術へとつながる継続可能な学習スロープを社会に実装するオープンソースプロジェクトです。">
+  <link rel="icon" href="img/meridian_logo.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ナビゲーションバー -->
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="#home" class="logo" data-page="home"><img src="img/meridian_logo.png" alt="Meridian計画" class="logo-img"></a>
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active" data-page="home">Home</a>
+        <a href="#project" class="nav-link" data-page="project">Project</a>
+        <a href="#development" class="nav-link" data-page="development">Development</a>
+        <a href="#docs" class="nav-link" data-page="docs">Docs</a>
+        <a href="#members" class="nav-link" data-page="members">Members</a>
+        <a href="#news" class="nav-link" data-page="news">News</a>
+        <a href="#links" class="nav-link" data-page="links">Links</a>
+      </nav>
+      <button class="nav-toggle" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home セクション（md/home.md から読み込み） -->
+    <section id="home" class="section active">
+      <div class="container">
+        <div id="home-content" class="markdown-content">
+          <div class="loading">読み込み中...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project セクション（md/project.md から読み込み） -->
+    <section id="project" class="section">
+      <div class="container">
+        <div id="project-content" class="markdown-content">
+          <div class="loading">読み込み中...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Development セクション（md/development.md から読み込み） -->
+    <section id="development" class="section">
+      <div class="container">
+        <div id="development-content" class="markdown-content">
+          <div class="loading">読み込み中...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Docs セクション（md/docs.md から読み込み） -->
+    <section id="docs" class="section">
+      <div class="container">
+        <div id="docs-content" class="markdown-content">
+          <div class="loading">読み込み中...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Members セクション（md/members.md から読み込み） -->
+    <section id="members" class="section">
+      <div class="container">
+        <div id="members-content" class="markdown-content">
+          <div class="loading">読み込み中...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News セクション（md/news.md から読み込み） -->
+    <section id="news" class="section">
+      <div class="container">
+        <div id="news-content" class="markdown-content news-container">
+          <div class="loading">読み込み中...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Links セクション（md/links.md から読み込み） -->
+    <section id="links" class="section">
+      <div class="container">
+        <div id="links-content" class="markdown-content">
+          <div class="loading">読み込み中...</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container">
+      <p>Copyright © 2021–2026 Izumi Ninagawa. This project is licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT License</a>.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
