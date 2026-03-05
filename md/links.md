@@ -14,6 +14,6 @@
 - [/robot Meridian部室 @Discord](https://discord.gg/7MdRMHEeYP) : オンライン開発会議用のスペース
 - [深川ロボティクス研究会](https://fukagawarobotics.my.canva.site/) : オフライン開発会議用の組織
 
-リンク切れの際は, x@Ninagawa123 までご一報ください. 
+リンク切れの際は, X:@Ninagawa123 までご一報ください. 
 
 ----
