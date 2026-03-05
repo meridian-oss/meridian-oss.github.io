@@ -6,18 +6,24 @@
 (function () {
   'use strict';
 
-  // Markdownファイルのパス（GitHub Pagesでは相対パスで取得）
-  const MD_HOME = 'md/home.md';
-  const MD_PROJECT = 'md/project.md';
-  const MD_DEVELOPMENT = 'md/development.md';
-  const MD_MEMBERS = 'md/members.md';
-  const MD_NEWS = 'md/news.md';
-  const MD_LINKS = 'md/links.md';
-  const MD_DOCS = 'md/docs.md';
+  // GitHub Pages などでサブパス配信時も正しく取得するためベースパスを算出
+  const pathname = document.location.pathname || '/';
+  const basePrefix = pathname === '/' || pathname === '' ? '' : pathname.replace(/\/$/, '') + '/';
+
+  // Markdownファイルのパス（basePrefix 付きで fetch する）
+  const MD_HOME = basePrefix + 'md/home.md';
+  const MD_USAGE = basePrefix + 'md/usage.md';
+  const MD_PROJECT = basePrefix + 'md/project.md';
+  const MD_DEVELOPMENT = basePrefix + 'md/development.md';
+  const MD_MEMBERS = basePrefix + 'md/members.md';
+  const MD_NEWS = basePrefix + 'md/news.md';
+  const MD_LINKS = basePrefix + 'md/links.md';
+  const MD_DOCS = basePrefix + 'md/docs.md';
 
   // セクションとコンテンツのマッピング
   const sections = {
     home: { element: document.getElementById('home-content'), file: MD_HOME },
+    usage: { element: document.getElementById('usage-content'), file: MD_USAGE },
     project: { element: document.getElementById('project-content'), file: MD_PROJECT },
     development: { element: document.getElementById('development-content'), file: MD_DEVELOPMENT },
     members: { element: document.getElementById('members-content'), file: MD_MEMBERS },
@@ -102,7 +108,8 @@
     if (!element) return;
 
     try {
-      const response = await fetch(file);
+      const url = file + (file.indexOf('?') === -1 ? '?v=1' : '');
+      const response = await fetch(url);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       let markdown = await response.text();
       markdown = preprocessBold(markdown);
@@ -121,6 +128,7 @@
   async function loadAllMarkdown() {
     await Promise.all([
       loadMarkdown('home'),
+      loadMarkdown('usage'),
       loadMarkdown('project'),
       loadMarkdown('development'),
       loadMarkdown('members'),
