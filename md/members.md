@@ -34,8 +34,9 @@
 - 天狼ホシナ / Core Maintainer
 - ________ / Core Maintainer
 - ________ / Application Maintainer
-- ________ / Contributor
+- ________ / Contributor  
 - ________ / Beta Tester
+
 (2026.2.1現在)
 
 ----
