@@ -44,8 +44,9 @@
 # メンバー募集
 
 Meridian計画では, コア開発メンバー・応用開発メンバー・コントリビューター・開発モニターを随時募集しています. 
+（2026年のスタートメンバーについては2026.3.31の締切とさせていただきます.）
 
-ご興味のある方は, 下記のフォームにてご連絡ください. 
+ご興味のある方は, ぜひ下記のフォームにてご登録ください. 
 
 [- Entry form -](https://docs.google.com/forms/d/e/1FAIpQLSfWjsC6ig8kP6PC3dcNQ8b8U9xTJ2OlxKd0tTBAcKTq_yDPIQ/viewform?pli=1)
 
