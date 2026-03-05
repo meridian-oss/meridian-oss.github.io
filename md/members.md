@@ -30,13 +30,12 @@
 # 2026 開発メンバー
 
 - Izumi Ninagawa / Founder & Lead Maintainer
-- holypong / __
-- 天狼ホシナ / __
-- Aaaaa Aaaaa / Core Maintainer
-- Aaaaa Aaaaa / Application Maintainer
-- Aaaaa Aaaaa / Application Maintainer
-- Aaaaa Aaaaa / Contributor
-- Aaaaa Aaaaa / Beta Tester
+- holypong / Core Maintainer, Application Maintainer
+- 天狼ホシナ / Core Maintainer
+- ________ / Core Maintainer
+- ________ / Application Maintainer
+- ________ / Contributor
+- ________ / Beta Tester
 (2026.2.1現在)
 
 ----
