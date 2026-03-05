@@ -2,7 +2,7 @@
 
 ## Phase1 / 初期の目標
 
-基本となるシンプルな180バイト長のプロトコル(Meridian 90)を使用するエコシステムの完成.
+基本となるシンプルな180バイト長のプロトコル(Meridim 90)を使用するエコシステムの完成.
 
 ### ① Meridian Board
 |機能|動作検証|LITE公式実装|TWIN公式実装|備考|
@@ -14,7 +14,7 @@
 |Servo PWM |✔︎|未|未||
 |Servo PWM PCA9685|✔︎|未|未||
 |Servo gs2d|未|未|未||
-|Servo Dynamixcel|✔︎|未|未||
+|Servo Dynamixel|✔︎|未|未||
 |Servo FutabaTTL|✔︎|未|未||
 |Servo Kondo ICS|✔︎|✔︎|✔︎||
 |Servo Feetech|✔︎|✔︎|未||
@@ -22,7 +22,7 @@
 |Gamepad Kondo|✔︎|✔︎|✔︎||
 |Gamepad Wii|✔︎|✔︎|✔︎||
 |Gamepad BlueRetro|✔︎|未|未||
-|Motion Striaming|✔︎|✔︎|✔︎||
+|Motion Streaming|✔︎|✔︎|✔︎||
 |Motion Standalone|✔︎|未|未||
 |有線LAN|✔︎|✔︎|未?||
 |Meridimシリアル通信|✔︎|未|未||
