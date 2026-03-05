@@ -7,7 +7,7 @@
 
 - [Meridian Info](https://ninagawa123.github.io/Meridian_info/) : 仕様についての情報まとめ
 - [Meridian LITE（GitHub）](https://github.com/Ninagawa123/Meridian_LITE) : ESP32用ロボットボード
-- [Meridian TWIN（GitHub）](https://github.com/Ninagawa123/Meridian_TWIN) : ESP32+Teensy4.0用ロボットボー
+- [Meridian TWIN（GitHub）](https://github.com/Ninagawa123/Meridian_TWIN) : ESP32+Teensy4.0用ロボットボード
 - [Meridian console（GitHub）](https://github.com/Ninagawa123/Meridian_console) : Python によるPC側の送受信アプリ
 
 ## コミュニティ
