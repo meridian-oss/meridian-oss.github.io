@@ -10,6 +10,9 @@
 - [Meridian TWIN（GitHub）](https://github.com/Ninagawa123/Meridian_TWIN) : ESP32+Teensy4.0用ロボットボード
 - [Meridian console（GitHub）](https://github.com/Ninagawa123/Meridian_console) : Python によるPC側の送受信アプリ
 
+## ボード頒布
+- [BOOTH 1985b](https://1985b.booth.pm/) : 完成品ボードの有償頒布
+
 ## コミュニティ
 - [/robot Meridian部室 @Discord](https://discord.gg/7MdRMHEeYP) : オンライン開発会議用のスペース
 - [深川ロボティクス研究会](https://fukagawarobotics.my.canva.site/) : オフライン開発会議用の組織
