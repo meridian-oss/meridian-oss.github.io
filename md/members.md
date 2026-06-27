@@ -36,10 +36,10 @@
 - みっちー / Application Maintainer
 - まさゆき / Application Maintainer
 - R工〔アールコー〕/ Application Maintainer
+- ひじー / Application Maintainer
 - sakachan / Beta Tester
 - ゴンタ / Beta Tester
 - ricky / Beta Tester
-- ひじー / Contributor
 (2026.5.1現在)
 
 ----
