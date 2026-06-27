@@ -32,12 +32,15 @@
 - Izumi Ninagawa / Founder & Lead Maintainer
 - holypong / Core Maintainer, Application Maintainer
 - 天狼ホシナ / Core Maintainer
-- ________ / Core Maintainer
-- ________ / Application Maintainer
-- ________ / Contributor  
-- ________ / Beta Tester
-
-(2026.2.1現在)
+- 横山 浩一郎（イーソル株式会社）/ Project Coordinator
+- みっちー / Application Maintainer
+- まさゆき / Application Maintainer
+- R工〔アールコー〕/ Application Maintainer
+- sakachan / Beta Tester
+- ゴンタ / Beta Tester
+- ricky / Beta Tester
+- ひじー / Contributor
+(2026.5.1現在)
 
 ----
 
